@@ -1,0 +1,177 @@
+*{
+    margin: 0; box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: black;
+    display: flex;
+}
+.left-container{
+    width: 40%;
+    height: 100vh;
+    background-color: #0c1317;
+}
+.top-left-container{
+    height: 70px;
+    background-color: #2a3942;
+    display: flex;
+    gap: 10px;
+    align-items:center ;
+    justify-content: end;
+    padding-right: 10px;
+}
+.utente, .gruppi, .stato, .note, .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+.search-left-container{
+    background-color: #0c1317;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.search-left{
+    height: 35px;
+    width: 80%;
+}
+.search-left-input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #2a3942;
+    color: white;
+}
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+}
+.bottom-left-container{
+    overflow-y: scroll;
+    height: 88%;
+}
+.chat{
+    height: 4.5rem;
+    border-top: 1px solid gray;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.chat:hover{
+    background-color: #2a3942;
+}
+.image-chat{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    align-self: center;
+}
+.img-res{
+    max-width: 100%;
+    border-radius: 50%;
+}
+.nome-chat-left{
+    color: white;
+    margin: 10px 10px;
+    font-size: 0.9em;
+}
+.anteprima-testo-chat{
+    font-size: 1em;
+}
+
+.right-container{
+    width: 60%;
+    height: 100vh;
+}
+.top-right-container{
+    height: 70px;
+    background-color: #2a3942;
+    border-left: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.top-right-container-left{
+    width: 80%;
+    display: flex;
+}
+.top-right-container-right{
+    display: flex;
+    justify-self: center;
+}
+.nome-chat{
+    margin-left: 20px;
+    color: white;
+    flex: none;
+}
+.videocall, .call, .menu-right{
+    display: flex;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.main-right-container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.messaggio-1{
+    width: 500px;
+    height: 55px;
+    background-color: #0c1317;
+    border-radius: 10px;
+    color: white;
+    margin: 10px ;
+    
+}
+.top-messaggio{
+    height: 2rem;
+    padding: 2px 5px;
+}
+.bottom-messaggio{
+    margin-left: 5px;
+}
+.messaggio-2{
+    width: 500px;
+    height: 55px;
+    margin-right: 10px;
+    background-color: #176b5b;
+    border-radius: 10px;
+    align-self: flex-end;
+    color: white;
+}
+.bottom-right-container{
+    margin-top: 50px;
+    height: 70px;
+    background-color: #202c33;
+    display: flex;
+    gap: 10px;
+    align-items:center ;
+    justify-content: center;
+    padding-right: 10px;
+}
+.emoticon, .add, .vocale, .invia{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.scrivi{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #2a3942;
+    color: white;
+}
